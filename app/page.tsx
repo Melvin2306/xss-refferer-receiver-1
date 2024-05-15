@@ -13,7 +13,7 @@ export default function Home() {
     // Check if the referrer is 'localhost:3000'
     const referrer = document.referrer;
     //Needs to be changed to the actual referrer
-    if (referrer.includes("localhost:3000")) {
+    if (referrer.includes("https://code-ctf-web-hack-1.chals.io")) {
       setShouldShowFlag1(true);
     }
     if (referrer.includes("localhost:3000")) {
